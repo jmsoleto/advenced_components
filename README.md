@@ -1,21 +1,7 @@
-# advenced_components
+A tener en cuenta.
 
-## Project setup
-```
-npm install
-```
+Otra forma más programatica y controlada de crear componentes.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+El uso de scope en los slots. De esta manera podemos acceder al scope del slot del coponente que estamos renderizando desde su padre.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+Functional Components. Componentes que no tienen estado y que se renderizan más rapido al carecer de reactividad. Se suelen usar como High Order Components del tipo botones, imputs, etc...
